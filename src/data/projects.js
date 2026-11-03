@@ -13,6 +13,7 @@ export const projects = [
     tags: ['AI Agents', 'Botpress', 'Gorgias', 'Knowledge Base Design', 'CX'],
     links: [
       { label: 'Try the live demo', url: 'https://cdn.botpress.cloud/webchat/v3.7/shareable.html?configUrl=https://files.bpcontent.cloud/2026/10/22/15/20261022155825-43C70MZ8.json' },
+      { label: 'Demo shop site', url: 'https://democycles-nsmr.sb.squidgy.chat' },
       { label: 'GitHub', url: 'https://github.com/jaredfontaine2002/bike-shop-cx-agent' },
     ],
   },

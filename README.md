@@ -26,6 +26,7 @@ Hiring managers and clients looking for: remote cycling-industry customer suppor
 - **What it is:** A working AI customer-service agent for small/mid bike shops and DTC cycling brands: bike sizing and compatibility from the shop's own catalogue, order/workshop status (WISMO), warranty and service triage, a daily flag report for the owner, and 48-hour / 5-day follow-ups.
 - **Status:** Demo — live. The demo shop ("Demo Cycles") is fictional and all demo data is invented.
 - **Live demo:** https://cdn.botpress.cloud/webchat/v3.7/shareable.html?configUrl=https://files.bpcontent.cloud/2026/10/22/15/20261022155825-43C70MZ8.json
+- **Demo shop site:** https://democycles-nsmr.sb.squidgy.chat — the fictional Demo Cycles shop front (display only, nothing for sale); the agent widget joins it once Squidgy confirms embed-while-private.
 - **GitHub:** https://github.com/jaredfontaine2002/bike-shop-cx-agent
 - **Proven:** Full 10-case test suite passed 10/10 against the live bot (Oct 22–23, 2026), including refusing a cross-brand compatibility confirmation under direct pressure, refusing a refund, refusing a 20% cash discount, and refusing to promise a workshop turnaround. Verbatim replies are in the repo (`tests/results.md`).
 - **Design rule:** It proposes, a human approves. Refunds, discounts, warranty outcomes, and delivery promises are always drafts for staff approval. It never invents a price, stock level, delivery date, compatibility verdict, or warranty outcome.
