@@ -117,6 +117,13 @@ export default function App() {
                 <h3>{s.name}</h3>
                 <p className="price">{s.price} <span>{s.unit}</span></p>
                 <p className="card-desc">{s.description}</p>
+                {s.buyUrl && (
+                  <div className="card-links">
+                    <a href={s.buyUrl} target="_blank" rel="noreferrer">
+                      Order on Upwork <span aria-hidden="true">→</span>
+                    </a>
+                  </div>
+                )}
               </article>
             ))}
           </div>

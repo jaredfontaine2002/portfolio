@@ -114,24 +114,28 @@ export const services = [
     name: 'Gorgias Helpdesk Audit',
     price: '$595',
     unit: 'fixed · 7 days',
+    buyUrl: 'https://www.upwork.com/services/product/2112592691981473414',
     description: 'Full teardown of macros, rules, views, tags, SLAs, and AI agent quality, plus ticket-data analysis and a prioritised fix list with a walkthrough.',
   },
   {
     name: 'Optimization Sprint',
     price: '$1,800',
     unit: 'fixed · 2 weeks',
+    buyUrl: 'https://www.upwork.com/services/product/admin-customer-support-gorgias-optimization-sprint-your-audit-fixes-implemented-in-2-weeks-2112602481755444870',
     description: 'The audit fixes, implemented: Gorgias configuration, AI agent setup with guardrails, macros, and routing — built and tested in your own helpdesk.',
   },
   {
     name: 'Monthly CX Retainer',
     price: '$700',
     unit: '/mo',
+    buyUrl: 'https://www.upwork.com/services/product/2112605293147084422',
     description: 'Ongoing tuning: weekly flag-report review, new intents and macros, and continuous improvement of your support operation and AI agent.',
   },
   {
     name: 'AI Visibility Audit',
     price: '$395',
     unit: 'fixed',
+    buyUrl: 'https://www.upwork.com/services/product/2117562658396700448',
     description: 'The 120-run method from the sample report, applied to your brand: how ChatGPT, Perplexity, and Gemini answer buyers about you — and what to fix first.',
   },
 ]

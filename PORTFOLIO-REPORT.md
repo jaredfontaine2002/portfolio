@@ -96,6 +96,12 @@ Hiring managers and clients looking for: remote cycling-industry customer suppor
 | Monthly CX Retainer | $700/mo | Monthly |
 | AI Visibility Audit | $395 | Fixed |
 
+**Order links (added 2026-11-03 — the portfolio is the front door, Upwork is checkout behind it):**
+- Gorgias Helpdesk Audit ($595): https://www.upwork.com/services/product/2112592691981473414
+- Optimization Sprint ($1,800): https://www.upwork.com/services/product/admin-customer-support-gorgias-optimization-sprint-your-audit-fixes-implemented-in-2-weeks-2112602481755444870
+- Monthly CX Retainer ($700/mo): https://www.upwork.com/services/product/2112605293147084422
+- AI Visibility Audit ($395): https://www.upwork.com/services/product/2117562658396700448
+
 ## 4. Contact published on the site
 
 - LinkedIn: https://www.linkedin.com/in/jared-fontaine-cycling
