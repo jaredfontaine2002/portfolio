@@ -95,12 +95,14 @@ Hiring managers and clients looking for: remote cycling-industry customer suppor
 | Optimization Sprint | $1,800 | Fixed, 2 weeks |
 | Monthly CX Retainer | $700/mo | Monthly |
 | AI Visibility Audit | $395 | Fixed |
+| Hostel Guest-Experience Audit | $395 / $995 / $350 | Audit fixed, 7 days · Deep-Dive fixed, 14 days · Ongoing Care monthly (added 2026-11-04, ladder approved by Jared) |
 
 **Order links (added 2026-11-03 — the portfolio is the front door, Upwork is checkout behind it):**
 - Gorgias Helpdesk Audit ($595): https://www.upwork.com/services/product/2112592691981473414
 - Optimization Sprint ($1,800): https://www.upwork.com/services/product/admin-customer-support-gorgias-optimization-sprint-your-audit-fixes-implemented-in-2-weeks-2112602481755444870
 - Monthly CX Retainer ($700/mo): https://www.upwork.com/services/product/2112605293147084422
 - AI Visibility Audit ($395): https://www.upwork.com/services/product/2117562658396700448
+- Hostel Guest-Experience Audit (added 2026-11-04): no Upwork Catalog listing yet — listing copy is drafted and Jared submits it himself (Upwork blocks Muse's browser). Until the catalog URL exists, the card's CTA links to the free Playbook page (`public/playbook.html` in this repo, live at https://jaredfontaine2002.github.io/portfolio/playbook.html); adding the catalog URL later is a one-line `buyUrl` change in `src/data/projects.js`. No verified Upwork *profile* URL exists in the records, so none was invented for this card.
 
 ## 4. Contact published on the site
 

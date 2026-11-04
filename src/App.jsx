@@ -117,11 +117,29 @@ export default function App() {
                 <h3>{s.name}</h3>
                 <p className="price">{s.price} <span>{s.unit}</span></p>
                 <p className="card-desc">{s.description}</p>
-                {s.buyUrl && (
+                {s.tiers && (
+                  <ul className="plain-list">
+                    {s.tiers.map((t) => (
+                      <li key={t.name}>
+                        <strong>{t.name} — {t.price}</strong> <span>{t.unit}</span>
+                        <br />
+                        {t.description}
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                {(s.buyUrl || s.link) && (
                   <div className="card-links">
-                    <a href={s.buyUrl} target="_blank" rel="noreferrer">
-                      Order on Upwork <span aria-hidden="true">→</span>
-                    </a>
+                    {s.buyUrl && (
+                      <a href={s.buyUrl} target="_blank" rel="noreferrer">
+                        Order on Upwork <span aria-hidden="true">→</span>
+                      </a>
+                    )}
+                    {s.link && (
+                      <a href={s.link.url} target="_blank" rel="noreferrer">
+                        {s.link.label} <span aria-hidden="true">→</span>
+                      </a>
+                    )}
                   </div>
                 )}
               </article>

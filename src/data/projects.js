@@ -139,6 +139,18 @@ export const services = [
     buyUrl: 'https://www.upwork.com/services/product/2117562658396700448',
     description: 'The 120-run method from the sample report, applied to your brand: how ChatGPT, Perplexity, and Gemini answer buyers about you — and what to fix first.',
   },
+  {
+    name: 'Hostel Guest-Experience Audit',
+    price: '$395',
+    unit: 'audit · 7 days',
+    link: { label: 'Read the free Playbook', url: 'https://jaredfontaine2002.github.io/portfolio/playbook.html' },
+    description: 'Guest-experience systems for independent hostels, from a manager and work-trader across 10+ hostels in the US and Europe. Built on the five fixes in my free Playbook — the ~$50 bed-bug prevention protocol, the one live roster that cut overbookings 30%, and the deep-clean rota behind the cleanliness scores guests filter by.',
+    tiers: [
+      { name: 'Audit', price: '$395', unit: 'fixed · 7 days', description: 'Listings and ratings review, your last 90 days of guest reviews mined, booking and overbooking setup tested end to end, work-trader and cleanliness systems checked — a prioritised fix list, ready-to-use templates, and a recorded walkthrough.' },
+      { name: 'Deep-Dive', price: '$995', unit: 'fixed · 14 days', description: 'The audit\u2019s top fixes, implemented: one live bed-level roster, deep-clean rota and SOPs, review-reply and welcome templates, and work-trader terms in writing.' },
+      { name: 'Ongoing Care', price: '$350', unit: '/mo', description: 'Monthly review monitoring and reply QA, a scorecard re-run, and one systems call — so the fixes hold when staff change and the season turns.' },
+    ],
+  },
 ]
 
 export const credentials = [
