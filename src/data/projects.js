@@ -18,6 +18,19 @@ export const projects = [
     ],
   },
   {
+    id: 'ridemetrics',
+    title: 'RideMetrics — Retention, Churn & A/B Test Analytics',
+    status: 'Sample — synthetic data',
+    statusTone: 'sample',
+    description:
+      'An advanced, end-to-end analytics project for a DTC bike shop: a DuckDB star-schema warehouse with a dbt project (staging to marts, schema tests), advanced SQL (CTEs, window functions), cohort retention and RFM segmentation, a properly powered A/B test, a leakage-free churn model, and a backtested revenue forecast — delivered in a 5-tab Streamlit dashboard with a Tableau / Power BI rebuild spec.',
+    proof: 'A/B test: $75 free-shipping threshold lifted conversion 9.99% vs 8.48% (+17.7%, 95% CI [+0.83pp, +2.18pp], p<0.001) — ship decision. Churn: logistic regression AUC 0.773, 559 customers flagged high risk. Champions = 40.4% of revenue.',
+    tags: ['SQL', 'dbt', 'DuckDB', 'Python', 'scikit-learn', 'A/B Testing', 'Cohort & RFM', 'Forecasting', 'Streamlit'],
+    links: [
+      { label: 'GitHub', url: 'https://github.com/jaredfontaine2002/ridemetrics-analytics' },
+    ],
+  },
+  {
     id: 'black-in-albania',
     title: 'Black in Albania — Guide & Directory',
     status: 'Live',
@@ -154,6 +167,7 @@ export const services = [
 ]
 
 export const credentials = [
+  'Google Data Analytics Professional Certificate (2021)',
   'Gorgias Admin Certified',
   'Gorgias CX Certified',
   'MBA — Wheeling Jesuit University, 2014',
