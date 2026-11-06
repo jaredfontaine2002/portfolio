@@ -86,6 +86,13 @@ Hiring managers and clients looking for: remote cycling-industry customer suppor
 - **Skills shown:** Product design, game design, large-scale research and fact-checking, print production.
 - **Classification note:** This is an educational product-design project. It is not political content and no political-employment history appears anywhere in this portfolio.
 
+### 9. RideMetrics — Retention, Churn & A/B Test Analytics
+- **What it is:** My advanced data-analyst project. A DuckDB star-schema warehouse with a dbt project (staging to marts, schema tests), advanced SQL (CTEs, window functions), cohort retention and RFM segmentation, a properly powered A/B test (free shipping $75 vs $99), a leakage-free churn model, and a backtested Holt-Winters revenue forecast, in a 5-tab Streamlit dashboard.
+- **Status:** Sample — synthetic data, seeded and reproducible; the pipeline runs on real Shopify / GA4 / Gorgias exports.
+- **GitHub:** https://github.com/jaredfontaine2002/ridemetrics-analytics
+- **Proven:** A/B test +17.7% conversion lift, 95% CI [+0.83pp, +2.18pp], p=1.4e-05 (ship); churn logistic regression AUC 0.773 with 559 customers flagged high risk; Champions = 40.4% of revenue; forecast backtest MAPE 22.7%.
+- **Skills shown:** SQL, dbt, DuckDB, Python, pandas, scikit-learn, scipy, statsmodels, A/B testing, cohort/RFM analysis, forecasting, Streamlit.
+
 ---
 
 ## 3. Services published on the site (exact prices)
