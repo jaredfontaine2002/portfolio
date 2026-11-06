@@ -1,5 +1,7 @@
 # Jared Fontaine — Portfolio Report
 
+This is my portfolio site. I'm Jared Fontaine — customer support and analytics for cycling companies.
+
 **Portfolio site:** React + Vite app in this repository (`portfolio-app`)
 **Planned live URL (after push + GitHub Pages setup):** https://jaredfontaine2002.github.io/portfolio/
 **Owner:** Jared Fontaine — Cycling-industry customer service specialist
