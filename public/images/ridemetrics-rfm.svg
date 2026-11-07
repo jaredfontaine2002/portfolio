@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc" font-family="Inter, system-ui, -apple-system, sans-serif">
+  <title id="title">Revenue share by RFM segment — RideMetrics</title>
+  <desc id="desc">Champions are 40.4 percent of revenue, Loyal 24.8 percent, At Risk 17.3 percent, Lost 10.5 percent, Potential 4.1 percent, Other 2.9 percent. Synthetic data.</desc>
+  <rect width="1200" height="750" fill="#ffffff"/>
+  <text x="60" y="72" font-size="34" font-weight="700" fill="#111827">Champions are 40.4% of revenue</text>
+  <text x="60" y="112" font-size="21" fill="#4b5563">Revenue share by RFM segment · RideMetrics · Synthetic data (seed 42) · Jan 2023 – Dec 2024 · n = 2,500 customers</text>
+
+  <text x="175" y="206" font-size="23" font-weight="600" fill="#111827" text-anchor="end">Champions</text>
+  <rect x="190" y="168" width="820" height="56" rx="6" fill="#14532d"/>
+  <text x="1024" y="206" font-size="23" font-weight="700" fill="#111827">40.4% · 622</text>
+
+  <text x="175" y="296" font-size="23" font-weight="600" fill="#111827" text-anchor="end">Loyal</text>
+  <rect x="190" y="258" width="503.4" height="56" rx="6" fill="#3b6ea5"/>
+  <text x="707.4" y="296" font-size="23" font-weight="700" fill="#111827">24.8% · 523</text>
+
+  <text x="175" y="386" font-size="23" font-weight="600" fill="#111827" text-anchor="end">At Risk</text>
+  <rect x="190" y="348" width="351.1" height="56" rx="6" fill="#3b6ea5"/>
+  <text x="555.1" y="386" font-size="23" font-weight="700" fill="#111827">17.3% · 355</text>
+
+  <text x="175" y="476" font-size="23" font-weight="600" fill="#111827" text-anchor="end">Lost</text>
+  <rect x="190" y="438" width="213.1" height="56" rx="6" fill="#3b6ea5"/>
+  <text x="417.1" y="476" font-size="23" font-weight="700" fill="#111827">10.5% · 642</text>
+
+  <text x="175" y="566" font-size="23" font-weight="600" fill="#111827" text-anchor="end">Potential</text>
+  <rect x="190" y="528" width="83.2" height="56" rx="6" fill="#3b6ea5"/>
+  <text x="287.2" y="566" font-size="23" font-weight="700" fill="#111827">4.1% · 189</text>
+
+  <text x="175" y="656" font-size="23" font-weight="600" fill="#111827" text-anchor="end">Other</text>
+  <rect x="190" y="618" width="58.9" height="56" rx="6" fill="#3b6ea5"/>
+  <text x="262.9" y="656" font-size="23" font-weight="700" fill="#111827">2.9% · 169</text>
+
+  <text x="60" y="722" font-size="19" fill="#6b7280">Source: RideMetrics reports/FINDINGS.md — chart redrawn from the verified findings for the portfolio card.</text>
+</svg>

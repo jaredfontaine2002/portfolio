@@ -1,5 +1,11 @@
 import { projects, services, credentials, experience } from './data/projects.js'
 
+const lanes = [
+  { id: 'cx', title: 'CX & AI agents', sub: 'Support agents and helpdesk work for cycling brands — guardrail-first, human-approved.' },
+  { id: 'data', title: 'Data & analytics', sub: 'Analyses built to answer a business question, with the method, limits, and decision shown.' },
+  { id: 'products', title: 'Products & live businesses', sub: 'Live products and businesses designed, built, and run end to end.' },
+]
+
 function ProjectCard({ project }) {
   return (
     <article className="card">
@@ -7,6 +13,14 @@ function ProjectCard({ project }) {
         <span className={`badge badge-${project.statusTone}`}>{project.status}</span>
       </div>
       <h3>{project.title}</h3>
+      {project.image && (
+        <img
+          className="card-img"
+          src={project.image.src.startsWith('http') ? project.image.src : `${import.meta.env.BASE_URL}${project.image.src}`}
+          alt={project.image.alt}
+          loading="lazy"
+        />
+      )}
       <p className="card-desc">{project.description}</p>
       <p className="card-proof">{project.proof}</p>
       <ul className="tags" aria-label="Skills">
@@ -81,11 +95,19 @@ export default function App() {
               never a client engagement.
             </p>
           </div>
-          <div className="grid">
-            {projects.map((p) => (
-              <ProjectCard key={p.id} project={p} />
-            ))}
-          </div>
+          {lanes.map((lane) => (
+            <div key={lane.id}>
+              <div className="lane-head">
+                <h3 className="lane-title">{lane.title}</h3>
+                <p className="lane-sub">{lane.sub}</p>
+              </div>
+              <div className="grid">
+                {projects.filter((p) => p.lane === lane.id).map((p) => (
+                  <ProjectCard key={p.id} project={p} />
+                ))}
+              </div>
+            </div>
+          ))}
         </section>
 
         <section id="ai-visibility-report" className="section report">
@@ -147,27 +169,32 @@ export default function App() {
           </div>
         </section>
 
-        <section id="about" className="section about">
-          <div className="about-col">
+        <section id="about" className="section about-section">
+          <div className="section-head">
             <p className="eyebrow">About</p>
-            <h2>Credentials</h2>
-            <ul className="plain-list">
-              {credentials.map((c) => (
-                <li key={c}>{c}</li>
-              ))}
-            </ul>
+            <h2>Background</h2>
           </div>
-          <div className="about-col">
-            <h2>Experience</h2>
-            <ul className="plain-list">
-              {experience.map((e) => (
-                <li key={e.org}><strong>{e.org}</strong> — {e.role}</li>
-              ))}
-            </ul>
-            <p className="section-sub">
-              Skills: Gorgias · Zendesk · Shopify · Python · SQL · pandas ·
-              Tableau · Power BI · Streamlit · React · Google Tag Manager · GA4
-            </p>
+          <div className="about">
+            <div className="about-col">
+              <h3>Credentials</h3>
+              <ul className="plain-list">
+                {credentials.map((c) => (
+                  <li key={c}>{c}</li>
+                ))}
+              </ul>
+            </div>
+            <div className="about-col">
+              <h3>Experience</h3>
+              <ul className="plain-list">
+                {experience.map((e) => (
+                  <li key={e.org}><strong>{e.org}</strong> — {e.role}</li>
+                ))}
+              </ul>
+              <p className="section-sub">
+                Skills: Gorgias · Zendesk · Shopify · Python · SQL · pandas ·
+                Tableau · Power BI · Streamlit · React · Google Tag Manager · GA4
+              </p>
+            </div>
           </div>
         </section>
 

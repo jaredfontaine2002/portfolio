@@ -62,7 +62,7 @@ Hiring managers and clients looking for: remote cycling-industry customer suppor
 - **What it is:** A helpdesk analytics toolkit for a cycling retailer's Gorgias instance: first-response time, resolution time, CSAT, SLA breach rates vs 4h/48h targets, and volume by channel/tag/agent/hour, with staffing recommendations.
 - **Status:** Sample — runs on a synthetic 900-ticket Gorgias export; the same pipeline runs on a real export.
 - **GitHub:** https://github.com/jaredfontaine2002/gorgias-cx-analytics
-- **Proven:** Pipeline and charts are in the repo. Sample output: median first response ~2.4h; warranty is the slowest tag; sizing questions are the top volume driver.
+- **Proven:** Pipeline and charts are in the repo. Sample output (verified against the repo REPORT.md, 900 tickets): median first response 1.8h, CSAT 4.06/5; warranty has the lowest CSAT (3.67), order-status is the slowest tag for first response (2.0h median), and sizing questions are the top volume driver.
 - **Skills shown:** Python, pandas, Gorgias, SLA/CX operations, data storytelling.
 
 ### 6. Bike Shop Sales Dashboard

@@ -4,6 +4,7 @@
 export const projects = [
   {
     id: 'cx-agent',
+    lane: 'cx',
     title: 'Bike Shop CX Agent',
     status: 'Demo — live',
     statusTone: 'live',
@@ -19,11 +20,16 @@ export const projects = [
   },
   {
     id: 'ridemetrics',
+    lane: 'data',
     title: 'RideMetrics — Retention, Churn & A/B Test Analytics',
     status: 'Sample — synthetic data',
     statusTone: 'sample',
+    image: {
+      src: 'images/ridemetrics-rfm.svg',
+      alt: 'Bar chart of revenue share by RFM segment from RideMetrics (synthetic data): Champions 40.4% of revenue, Loyal 24.8%, At Risk 17.3%, Lost 10.5%, Potential 4.1%, Other 2.9%',
+    },
     description:
-      'An advanced, end-to-end analytics project for a DTC bike shop: a DuckDB star-schema warehouse with a dbt project (staging to marts, schema tests), advanced SQL (CTEs, window functions), cohort retention and RFM segmentation, a properly powered A/B test, a leakage-free churn model, and a backtested revenue forecast — delivered in a 5-tab Streamlit dashboard with a Tableau / Power BI rebuild spec.',
+      'Built to answer four questions for a DTC bike shop: who comes back, who is about to churn, does a $75 free-shipping threshold actually sell more, and what does next season look like? Behind the answers: a DuckDB + dbt warehouse, cohort and RFM analysis, a properly powered A/B test, a leakage-free churn model, and a backtested revenue forecast — delivered in a 5-tab Streamlit dashboard with a Tableau / Power BI rebuild spec.',
     proof: 'A/B test: $75 free-shipping threshold lifted conversion 9.99% vs 8.48% (+17.7%, 95% CI [+0.83pp, +2.18pp], p<0.001) — ship decision. Churn: logistic regression AUC 0.773, 559 customers flagged high risk. Champions = 40.4% of revenue.',
     tags: ['SQL', 'dbt', 'DuckDB', 'Python', 'scikit-learn', 'A/B Testing', 'Cohort & RFM', 'Forecasting', 'Streamlit'],
     links: [
@@ -32,6 +38,7 @@ export const projects = [
   },
   {
     id: 'black-in-albania',
+    lane: 'products',
     title: 'Black in Albania — Guide & Directory',
     status: 'Live',
     statusTone: 'live',
@@ -46,6 +53,7 @@ export const projects = [
   },
   {
     id: 'ai-visibility',
+    lane: 'data',
     title: 'AI Visibility Audit — Sample Report',
     status: 'Sample — not commissioned',
     statusTone: 'sample',
@@ -60,6 +68,7 @@ export const projects = [
   },
   {
     id: 'neto-sync',
+    lane: 'data',
     title: 'Neto Supplier Sync',
     status: 'Sample — synthetic data only',
     statusTone: 'sample',
@@ -73,12 +82,17 @@ export const projects = [
   },
   {
     id: 'gorgias-analytics',
+    lane: 'data',
     title: 'Gorgias CX Analytics',
     status: 'Sample — synthetic data',
     statusTone: 'sample',
+    image: {
+      src: 'https://raw.githubusercontent.com/jaredfontaine2002/gorgias-cx-analytics/main/charts/frt_by_tag.png',
+      alt: 'Bar chart from Gorgias CX Analytics (synthetic data): median first response time by ticket tag — order-status slowest at about 2.0 hours, warranty fastest at about 1.6 hours',
+    },
     description:
       'A helpdesk analytics toolkit for a cycling retailer\'s Gorgias instance. Feed it a ticket export and it returns first-response, resolution, and CSAT metrics, SLA breach rates, and staffing recommendations — broken down by the ticket tags bike shops actually use, like sizing, compatibility, and warranty.',
-    proof: 'Built on a synthetic 900-ticket export with bike-specific tags; the same pipeline runs on a real Gorgias export.',
+    proof: '900 synthetic tickets: median first response 1.8h, CSAT 4.06/5. Warranty has the lowest CSAT (3.67); sizing is the top volume driver. The same pipeline runs on a real Gorgias export.',
     tags: ['Python', 'pandas', 'Gorgias', 'Data Analysis', 'CX Operations'],
     links: [
       { label: 'GitHub', url: 'https://github.com/jaredfontaine2002/gorgias-cx-analytics' },
@@ -86,11 +100,16 @@ export const projects = [
   },
   {
     id: 'sales-dashboard',
+    lane: 'data',
     title: 'Bike Shop Sales Dashboard',
     status: 'Sample — synthetic data',
     statusTone: 'sample',
+    image: {
+      src: 'https://raw.githubusercontent.com/jaredfontaine2002/bike-shop-sales-dashboard/main/assets/dashboard-thumbnail.png',
+      alt: 'Bike Shop Sales Dashboard (synthetic data): $22.3M net revenue across 13,858 orders, with revenue by month and category and return rate by category — apparel highest at about 18%',
+    },
     description:
-      'An end-to-end e-commerce analytics project for a cycling retailer: a pandas analysis pipeline and an interactive Streamlit + Plotly dashboard with KPI cards, revenue trends, and return-rate breakdowns across categories, brands, and channels.',
+      'An end-to-end e-commerce analytics project for a cycling retailer: a pandas analysis pipeline and an interactive Streamlit + Plotly dashboard with KPI cards, revenue trends, and return-rate breakdowns across categories, brands, and channels. Earlier project — RideMetrics (above) is the deeper follow-up.',
     proof: 'Runs on two years of synthetic, reproducible order data. Sample finding: apparel drives high volume but the highest return rate (~18%) — fit guidance is the obvious lever.',
     tags: ['Python', 'pandas', 'Streamlit', 'Plotly', 'E-commerce Analytics'],
     links: [
@@ -99,6 +118,7 @@ export const projects = [
   },
   {
     id: 'vlora',
+    lane: 'products',
     title: 'Vlora Cycling Camp',
     status: 'Live — founder',
     statusTone: 'live',
@@ -112,6 +132,7 @@ export const projects = [
   },
   {
     id: 'board-game',
+    lane: 'products',
     title: 'Black American Achievement — Board Game',
     status: 'Product in production',
     statusTone: 'product',
