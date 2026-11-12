@@ -33,6 +33,7 @@ export const projects = [
     proof: 'A/B test: $75 free-shipping threshold lifted conversion 9.99% vs 8.48% (+17.7%, 95% CI [+0.83pp, +2.18pp], p<0.001) — ship decision. Churn: logistic regression AUC 0.773, 559 customers flagged high risk. Champions = 40.4% of revenue.',
     tags: ['SQL', 'dbt', 'DuckDB', 'Python', 'scikit-learn', 'A/B Testing', 'Cohort & RFM', 'Forecasting', 'Streamlit'],
     links: [
+      { label: 'Live dashboard', url: 'https://ridemetrics.onrender.com' },
       { label: 'GitHub', url: 'https://github.com/jaredfontaine2002/ridemetrics-analytics' },
     ],
   },
