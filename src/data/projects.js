@@ -39,6 +39,21 @@ export const projects = [
     ],
   },
   {
+    id: 'tenantpost',
+    lane: 'data',
+    title: 'TenantPost — Tenant Email Delivery Prototype',
+    status: 'Prototype — live demo',
+    statusTone: 'live',
+    description:
+      'A working prototype of the tenant side of an email delivery system for a tour-operator CRM, built as a work sample in Flask/Python. A domain setup wizard generates a tenant\'s SPF, DKIM, and DMARC records and then verifies them with live DNS lookups; a deliverability checker audits any domain\'s MX, SPF, DKIM, and DMARC and explains each result in plain English; a ZeptoMail test-send lane and a design page for OAuth-based send-as complete the picture.',
+    proof: 'Verified against live DNS on the deployed app: google.com scores 6 pass / 1 warn / 0 fail, and the checker flags a real gap on my own domain — vloracycling.com has no DMARC record. The test-send lane is intentionally left unconfigured and says so rather than faking a send.',
+    tags: ['Python', 'Flask', 'DNS', 'Email Deliverability', 'Render'],
+    links: [
+      { label: 'Live demo', url: 'https://tenant-email-delivery-demo.onrender.com' },
+      { label: 'GitHub', url: 'https://github.com/jaredfontaine2002/tenant-email-delivery-demo' },
+    ],
+  },
+  {
     id: 'black-in-albania',
     lane: 'products',
     title: 'Black in Albania — Guide & Directory',
