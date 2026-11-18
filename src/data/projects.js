@@ -34,7 +34,7 @@ export const projects = [
     tags: ['SQL', 'dbt', 'DuckDB', 'Python', 'scikit-learn', 'A/B Testing', 'Cohort & RFM', 'Forecasting', 'Streamlit'],
     links: [
       { label: 'Live dashboard', url: 'https://ridemetrics.onrender.com' },
-      { label: 'Tableau Public', url: 'https://public.tableau.com/app/profile/jared.fontaine' },
+      { label: 'Tableau: Retention & Churn Analysis', url: 'https://public.tableau.com/app/profile/jared.fontaine/viz/RideMetricsCustomerRetentionChurnAnalysis/RideMetricsCustomerRetentionChurnAnalysis' },
       { label: 'GitHub', url: 'https://github.com/jaredfontaine2002/ridemetrics-analytics' },
     ],
   },
